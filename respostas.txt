@@ -1,0 +1,70 @@
+1 - Diferenciar as camadas 2 e 3 do modelo OSI, e indicar os protocolos utilizados para
+endereçamento nestas camadas.
+
+R.:  O modelo OSI (Open Systems Interconnection) é usado par referenciar e interpretar as
+funcionalidades e interações dos diferentes protocolos de rede em um sistema de comunicação
+de dados. Esse modelo é divido em 7 camadas.
+
+ A camada 2, conhecida também como camada de enlace de dados, é responsável por organizar
+ os dados recebidos do meio físicos do computador em quadros e com isso fazer o gerenciamento
+ do fluxo de dados e de possíveis erros. Caso seja detectado algum erro logo será corrigido
+ possibilitando com que a transmissão de dados em camadas superiores fique mais confiáveis e
+ com menos erros. Para fazer isso com maior assertividade essa camada se utiliza de endereço
+ físicos chamados de endereço MAC, esses endereços são exclusivos para cada dispositivo de
+ rede e são usados para identificar o dispositivo em uma rede local. Os protocolos mais
+ utilizados nessa camada são os protocolos Ethernet e o PPP (Point-to-Point Protocol).
+
+ Enquanto a camada 2 é responsável por organizar a transmissão de dados em uma rede local,
+ a camada 3, chamada de camada de rede, trabalha com uma comunicação em nível global na Internet
+ conectando 2 ou mais redes e traçando a melhor trajeto para a transmissão da mensagem em
+ diferentes dispositivos levando em consideração fatores como a distância, o custo e a
+ confiabilidade das conexões. Os protocolos mais utilizados nessa camada são os protocolos IP
+ (endereço exclusivo de dispositivos e redes para localizar o melhor caminho) e o ICMP (usado para
+ mandar mensagens de controle e diagnostico).
+
+
+ 2 - Qual a diferença entre adotar uma solução proprietária como o sistema operacional Windows quando
+ comparado a adoção de uma solução OpenSource como o sistema operacional Ubuntu? Quais seriam os
+ pontos negativos e positivos de cada abordagem?
+
+ R.: No primeiro você está adquirindo um sistema operacional criado por uma empresa, no caso do Windows
+ é a Microsoft, onde só ela tem acesso ao código fonte e pode fazer alterações, já no segundo o sistema
+ operacional é criado e atualizado pela própria comunidade fazendo com que o código fonte seja aberto e
+ a própria comunidade possa modifica-lo e dar ideias de melhoria.
+
+Dessa forma, a adoção e experiencia desses 2 sistemas operacionais podem ser bem diferentes. Os pontos
+positivos do sistema proprietário em relação ao OpenSource são ser mais fácil de usar, ter um maior
+suporte e compatível com mais softwares. Já os negativos são caro, menos seguro e menos personalizável.
+Essas diferenças se dão pelo fato de as empresas particulares visam o lucro e com isso para alcançar um
+maior publico eles tornam seus sistemas mais “userfriendly”, fazem parcerias com grandes apps para que
+eles sejam desenvolvidos principalmente para suas plataformas e se preocupam em dar um maior suporte aos
+seus clientes para que eles ficam satisfeitos. Porém, para a empresa continuar funcionando e trazer mais
+melhorias é preciso cobrar um preço pelo produto, o que faz com que muitas vezes se torne muito caro ser
+utilizada. Já o Ubuntu por ser OpenSource, a própria comunidade fica encarregada das melhorias do sistema,
+por o código ser aberto qualquer pessoa pode usar, tornando-o de graça, caso acha algum problema de
+segurança ou o usuário queria personalizar o sistema, o próprio usuário pode achar o erro e sugerir alguma
+mudança no código para melhorar. Porem como contraponto ele tem uma curva de aprendizado mais lenta já que
+ele não tem o intuito de ser fácil de usar.
+
+
+3 - O que seria um projeto OpenSource? Como empresas podem adotar tais tecnologias e o que isso acarreta?
+
+R.: Projeto OpenSource, como dito na pergunta anterior, é um projeto de código aberto onde qualquer pessoa
+pode ver o código fonte e tem a liberdade para utilizar, modificar e distribuir caso tenha feito alguma
+modificação. As empresas podem adotar essas tecnologias de algumas formas, como de forma direta, na qual a
+empresa pega diretamente softwares Opensouce já prontos e integram ao seu próprio projeto para realizar
+alguma tarefa específica, como exemplo podemos citar alguns servidores, banco de dados e ate aplicativos de
+produtividade. Outro jeito é desenvolver ativamente o projeto OpenSource, criando melhorias e funcionalidades
+novas para algumas aplicações que a empresa precisava e compartilhando com a comunidade para o aperfeiçoamento
+mais rápido do produto, como projetos OpenSorce de sucesso que podemos citar é caso do TensorFlow do Google
+e o .NET da Microsoft, eles são usados amplamente pela comunidade para o desenvolvimento de inteligência
+artificial e criação de apps, respectivamente.
+
+Com isso, o uso do projeto OpenSource pode acarretar em uma diminuição de preço do projeto já que a
+comunidade ajuda e não alguém contratada, melhor customização e segurança já que o código pode ser modifica
+de qualquer lugar do mundo a qualquer hora. Porem como desvantagens aparece a falta de suporte já que os
+empregados da empresa precisaram solicitar ajuda da comunidade podendo assim fazer com que a curva de
+aprendizado seja mais lenta e eles terão que seguir as regulações aplicadas aos projetos OpenSource e não
+irão lucrar diretamente com essa ferramenta.
+
+
